@@ -1,2 +1,4 @@
 # MSSI_DigitalSignature
-Digigtal signature implementation, RSA, ElGamal, ECDSA
+Digital signature implementation, RSA, ElGamal, ECDSA using GMP Library
+
+
