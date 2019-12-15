@@ -10,16 +10,16 @@ prime numbers, the "factoring problem".
 
 ## Implementation
 
-`make freshrsa` This will clear any previous version of the rsatest binary, and compile another version.
-`make rsatest` This will compile the rsatest binary.
+`make freshrsa` This will clear any previous version of the rsatest binary, and compile another version.  
+`make rsatest` This will compile the rsatest binary.  
 
-`./rsatest [option] [argument]`
+`./rsatest [option] [argument]`  
 
-`options` : 
-    `[ -m | --message ] [message]*`
-    `[ -f | --file ] [path]*`
-    `[ -r | --reps ][Miller Rabin REPS value]`
-    `[ -p | --randpow ] [Primes generation interval]`
+`options` :  
+    `[ -m | --message ] [message]*`  
+    `[ -f | --file ] [path]*`  
+    `[ -r | --reps ][Miller Rabin REPS value]`  
+    `[ -p | --randpow ] [Primes generation interval]`  
     
     note:  higher REPS value will reduce the chances of a non-prime being identified as “probably prime”
            -p or --randpow specifies the integer generation interval in the range 0 to 2^n-1, inclusive 
