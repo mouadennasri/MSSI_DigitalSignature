@@ -12,4 +12,4 @@ all:
 	gcc rsatest.c rsagmp.c ntheory.c sha1.c -lgmp -o rsatest 
 freshrsa: clean rsatest
 freshelgamal: clean elgamaltest
-freshrsa: clean ecdsatest
+freshecdsa: clean ecdsatest
