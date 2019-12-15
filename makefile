@@ -1,3 +1,5 @@
+clean:
+	rm -f elgamaltest rsatest ecdsatest
 elgamaltest:
 	gcc elgamaltest.c elgamalgmp.c ntheory.c sha1.c -lgmp -o elgamaltest
 rsatest:
@@ -8,3 +10,6 @@ all:
 	gcc ecdsatest.c helpers.c ecdsagmp.c sha1.c -lgmp -o ecdsatest
 	gcc elgamaltest.c elgamalgmp.c ntheory.c sha1.c -lgmp -o elgamaltest
 	gcc rsatest.c rsagmp.c ntheory.c sha1.c -lgmp -o rsatest 
+freshrsa: clean rsatest
+freshrsa: clean elgamaltest
+freshrsa: clean ecdsatest
