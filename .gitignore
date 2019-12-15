@@ -2,3 +2,6 @@
 rsatest
 elgamaltest
 ecdsatest
+
+# txt test files
+*.txt
