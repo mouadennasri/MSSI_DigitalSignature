@@ -45,6 +45,19 @@ which was described by Taher ElGamal in 1984. Based on the difficulty of computi
     note:  higher REPS value will reduce the chances of a non-prime being identified as “probably prime”
            klength must be greater or equal to 15
 # ECDSA
+The ECDSA (Elliptic Curve Digital Signature Algorithm) is a cryptographically secure digital signature scheme, based on the elliptic-curve cryptography (ECC). ECDSA relies on the math of the cyclic groups of elliptic curves over finite fields and on the difficulty of the ECDLP problem (elliptic-curve discrete logarithm problem).
+
+## Implementation
+
+`make freshecdsa` This will clear any previous version of the ecdsatest binary, and compile another version.  
+`make ecdsatest` This will compile the ecdsatest binary.  
+
+`./ecdsatest [option] [argument]`  
+
+`options` :  
+    `[ -m | --message ] [message]*`  
+    `[ -f | --file ] [path]*`  
+    
 Maintainer
 ----
 ENNASRI Mouad mouad.ennasri@gmail.com
