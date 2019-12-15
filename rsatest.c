@@ -72,7 +72,11 @@ int main(int argc, char **argv)
       }
     }
   }
-
+	else
+	{
+		message = malloc((6 * sizeof(char)));
+				strcpy(message, "hello");
+	}
   printf("Message to sign -> %s \n", message);
   printf("_____________________________\n\n");
   printf("RSA Key Generation: \n");
