@@ -26,6 +26,24 @@ prime numbers, the "factoring problem".
            where n == randpow value
            
 # ELGAMAL
+The ElGamal signature scheme is a digital signature scheme
+which was described by Taher ElGamal in 1984. Based on the difficulty of computing discrete logarithms.
+
+## Implementation
+
+`make freshelgamal` This will clear any previous version of the elgamaltest binary, and compile another version.  
+`make elgamaltest` This will compile the elgamaltest binary.  
+
+`./elgamaltest [option] [argument]`  
+
+`options` :  
+    `[ -m | --message ] [message]*`  
+    `[ -f | --file ] [path]*`  
+    `[ -r | --reps ][Miller Rabin REPS value]`  
+    `[ -k | --klength ] [Key length]`  
+    
+    note:  higher REPS value will reduce the chances of a non-prime being identified as “probably prime”
+           klength must be greater or equal to 15
 # ECDSA
 Maintainer
 ----
