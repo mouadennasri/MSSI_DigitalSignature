@@ -1,0 +1,4 @@
+# ignore binaries 
+rsatest
+elgamaltest
+ecdsatest
