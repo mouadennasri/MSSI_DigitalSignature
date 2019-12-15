@@ -11,5 +11,5 @@ all:
 	gcc elgamaltest.c elgamalgmp.c ntheory.c sha1.c -lgmp -o elgamaltest
 	gcc rsatest.c rsagmp.c ntheory.c sha1.c -lgmp -o rsatest 
 freshrsa: clean rsatest
-freshrsa: clean elgamaltest
+freshelgamal: clean elgamaltest
 freshrsa: clean ecdsatest
