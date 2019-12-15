@@ -1,6 +1,6 @@
 # MSSI Digital Signature
 This project represent a GMP implementation of the digital signature algorithms (RSA, ELGAMAL, ECDSA),
-This is a C code implementation, easy and reasy to use
+This is a C code implementation, easy and ready to use
 # GMP Library
 GMP or [The GNU Multiple Precision Arithmetic Library ](https://gmplib.org/) is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers. 
 # RSA
